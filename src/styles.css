@@ -1,17 +1,18 @@
 .flip-clock {
   --fcc-flip-duration: 0.5s; /* transition duration when flip card */
-  --fcc-digit-block-width: 40px; /* width of digit card */
-  --fcc-digit-block-height: 60px; /* height of digit card, highly recommend in even number */
-  --fcc-digit-font-size: 130px; /* font size of digit */
+  --fcc-digit-block-width: 80px; /* width of digit card */
+  --fcc-digit-block-height: 120px; /* height of digit card, highly recommend in even number */
+  --fcc-digit-font-size: 60px; /* font size of digit */
   --fcc-digit-color: white; /* color of digit */
-  --fcc-label-font-size: 10px; /* font size of label */
-  --fcc-label-color: #ffffff; /* color of label */
-  --fcc-background: black; /* background of digit card */
+  --fcc-label-font-size: 20px; /* font size of label */
+  --fcc-label-color: #333; /* color of label */
+  --fcc-background: rgb(5, 81, 38); /* background of digit card */
   --fcc-divider-color: white; /* color of divider */
   --fcc-divider-height: 1px; /* height of divider */
   --fcc-separator-size: 6px; /* size of colon */
-  --fcc-separator-color: red; /* color of colon */
+  --fcc-separator-color: rgb(0, 0, 0); /* color of colon */
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -22,16 +23,9 @@ body {
 }
 
 .page {
-  background: deepskyblue;
+  background: rgb(144, 223, 182);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.countdown {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
 }
