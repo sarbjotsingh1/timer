@@ -3,11 +3,11 @@
   --fcc-digit-block-width: 30px; /* width of digit card */
   --fcc-digit-block-height: 60px; /* height of digit card, highly recommend in even number */
   --fcc-digit-font-size: 30px; /* font size of digit */
-  --fcc-digit-color: #fff; /* color of digit */
+  --fcc-digit-color: #000000; /* color of digit */
   --fcc-label-font-size: 14px; /* font size of label */
   --fcc-label-color: #fff; /* color of label */
-  --fcc-background: #5130d3; /* background of digit card */
-  --fcc-divider-color: #765dd7; /* color of divider */
+  --fcc-background: #ffffff; /* background of digit card */
+  --fcc-divider-color: #000000; /* color of divider */
   --fcc-divider-height: 1px; /* height of divider */
   --fcc-separator-size: 6px; /* size of colon */
   --fcc-separator-color: #fff; /* color of colon */
@@ -75,17 +75,15 @@ body {
 .btn {
   width: 180px;
   height: 64px;
-  border-radius: 2rem;
-  background: #b208d8;
-  color: #fff;
+  background: #fff;
+  color: rgb(0, 0, 0);
   font-size: 1rem;
-  cursor: pointer;
   font-family: 'Poppins';
-}
-
-.btn:hover {
-  background: #9a0fb9;
-  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 /* for screens bigger than 900px */
